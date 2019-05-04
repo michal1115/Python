@@ -212,7 +212,6 @@ class Browser_operator:
     def decrease_volume(self):
         self.synch()
         self.go_to_top_of_the_page()
-        time.sleep(1)
         if ( not self.status ):
             '''User is not in video section'''
             return
